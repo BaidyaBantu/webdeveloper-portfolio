@@ -142,9 +142,7 @@ main section{
 .skill-category{
     border-radius: 15px;
     background: #FFF;
-    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-    /* offset-x | offset-y | blur-radius | color */
-    box-shadow: 10px 5px 5px rgb(89, 84, 84);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin-right: 25px;
  }
  .skill-logo{
@@ -154,6 +152,39 @@ main section{
     padding-left: 30px ;
 }
 /* resume design */
-.resume{
+.resume-column-title{
+    color: #474747;
+font-size: 30px;
+font-weight: 700;
+margin-bottom: 30px;
+}
+.resume-container{
     display: flex;
+    gap: 50px;
+}
+.text-degree{
+    color: #474747;
+font-size: 25px;
+font-weight: 700;
+
+}
+.text-university{
+    color:  #757575;
+font-size: 20px;
+font-weight: 600;
+margin: 10px 0px 20px 0px;
+
+}
+.degree-details{
+    color:#757575;
+font-size: 16px;
+font-weight: 400;
+
+}
+.resume-container hr{
+    margin: 30px 0px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 30px;
 }
